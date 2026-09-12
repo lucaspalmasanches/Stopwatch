@@ -1,20 +1,20 @@
-# Cronômetro Avançado e Responsivo ⏱️✨
+# Advanced and Responsive Stopwatch ⏱️✨
 
-![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## Sobre o Projeto ✨
+## About the Project ✨
 
-Este projeto, inicialmente baseado em uma aula introdutória curta de JavaScript do [DevClub](https://www.devclub.com.br/), foi **totalmente refatorado e expandido** para se tornar um cronômetro digital completo, preciso e com funcionalidades avançadas. Indo **muito além do proposto na aula**, que cobria apenas o básico da contagem de tempo, este cronômetro agora oferece uma experiência de usuário rica e sem inconsistências.
+This project, initially based on a short introductory JavaScript lesson from [DevClub](https://www.devclub.com.br/), has been **completely refactored and expanded** to become a full-featured, precise, and advanced digital stopwatch. Going **far beyond what was proposed in the lesson**, which covered only the basics of time counting, this stopwatch now offers a rich and consistent user experience.
 
-Minhas principais contribuições incluem a **revisão completa do HTML, CSS e JavaScript**. No CSS, desenvolvi um estilo próprio e detalhado, explorando **recursos avançados e pseudoelementos específicos de navegadores (como `::-webkit`)** para criar um layout imersivo e totalmente responsivo que remete a um cronômetro real. Aprimorei a lógica JavaScript para **resolver conflitos** que surgiam ao apertar o botão "Start" múltiplas vezes, adicionei a contagem de **milissegundos** para maior precisão, e implementei um botão "Lap" para **registrar e listar os tempos de volta**. Todas as interações foram modernizadas, substituindo `onclick` por `addEventListener`, e o design foi otimizado para ser **totalmente responsivo** em desktops, tablets e celulares.
+My main contributions include **a comprehensive overhaul of the HTML, CSS, and JavaScript**. In the CSS, I developed a unique and detailed style, exploring **advanced features and browser-specific pseudo-elements (like `::-webkit`)** to create an immersive and fully responsive design that resembles a real stopwatch. I enhanced the JavaScript logic to **resolve conflicts** that arose from pressing the "Start" button multiple times, added **milliseconds** counting for greater precision, and implemented a "Lap" button to **record and list lap times**. All interactions were modernized, replacing `onclick` with `addEventListener`, and the design was optimized to be **fully responsive** across desktops, tablets, and mobile phones.
 
-Com este projeto, demonstro não apenas os fundamentos da lógica de programação e manipulação do DOM, mas também a capacidade de depurar e corrigir inconsistências, implementar funcionalidades complexas, e criar interfaces adaptáveis e com foco na experiência do usuário e na estética visual.
+With this project, I demonstrate not only the fundamentals of programming logic and DOM manipulation but also the ability to debug and fix inconsistencies, implement complex features, and create adaptive interfaces with a strong focus on user experience and visual aesthetics.
 
 ---
 
-## 💻 Tecnologias Utilizadas
+## 💻 Technologies Used
 
-Aqui estão as tecnologias que utilizei para construir este projeto:
+Here are the technologies I used to build this project:
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -25,84 +25,84 @@ Aqui estão as tecnologias que utilizei para construir este projeto:
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Features
 
-*   **Design Totalmente Responsivo:** Layout que se adapta de forma fluida e elegante para visualização em **desktops, tablets e smartphones**, oferecendo uma experiência de usuário consistente e otimizada.
+*   **Fully Responsive Design:** Layout that adapts fluidly and elegantly for viewing on **desktops, tablets, and smartphones**, offering a consistent and optimized user experience.
 
-*   **Contagem Precisa de Tempo:** Exibe horas, minutos, segundos e **milissegundos**.
+*   **Precise Time Counting:** Displays hours, minutes, seconds, and **milliseconds**.
 
-*   **Botões de Controle:** Funcionalidades de Start, Stop e Reset para gerenciar a contagem do cronômetro.
+*   **Control Buttons:** Start, Stop, and Reset functionalities to manage the stopwatch count.
 
-*   **Funcionalidade de Lap (Voltas):** Registra e exibe uma lista de tempos de volta, permitindo acompanhar múltiplos intervalos.
+*   **Lap Functionality:** Records and displays a list of lap times, allowing tracking of multiple intervals.
 
-*   **Lógica Robusta:** Correção de bugs para evitar conflitos ao apertar "Start" múltiplas vezes, garantindo uma operação consistente.
+*   **Robust Logic:** Bug fixes to prevent conflicts when pressing "Start" multiple times, ensuring consistent operation.
 
-*   **Event Handling Moderno:** Utilização de `addEventListener` para todas as interações dos botões.
+*   **Modern Event Handling:** Use of `addEventListener` for all button interactions.
 
-*   **Layout Imersivo e Fiel:** Design que remete a um cronômetro físico, com **detalhes visuais aprimorados através de CSS avançado**, com foco na usabilidade.
+*   **Immersive Layout:** Design that mimics a physical stopwatch, with **enhanced visual details through advanced CSS**, focusing on usability.
 
 ---
 
-## 📸 Visualização do Projeto
+## 📸 Project Visualization
 
-Confira o design responsivo do projeto em diferentes dispositivos:
+Check out the responsive design of the project across different devices:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lucaspalmasanches/Cronometro/main/img/cronômetro-desktop.png" alt="Cronômetro - Versão Desktop" width="34%">
-  <img src="https://raw.githubusercontent.com/lucaspalmasanches/Cronometro/main/img/cronômetro-tablet.png" alt="Cronômetro - Versão Tablet" width="30%">
-  <img src="https://raw.githubusercontent.com/lucaspalmasanches/Cronometro/main/img/cronômetro-celular.png" alt="Cronômetro - Versão Mobile" width="30%">
+  <img src="https://raw.githubusercontent.com/lucaspalmasanches/Stopwatch/main/img/cronômetro-desktop.png" alt="Stopwatch - Desktop Version" width="35%">
+  <img src="https://raw.githubusercontent.com/lucaspalmasanches/Stopwatch/main/img/cronômetro-tablet.png" alt="Stopwatch - Tablet Version" width="30%">
+  <img src="https://raw.githubusercontent.com/lucaspalmasanches/Stopwatch/main/img/cronômetro-celular.png" alt="Stopwatch - Mobile Version" width="30%">
 </p>
 
-🌐 [Ver Projeto Online](https://lucaspalmasanches.github.io/Cronometro/)
+🌐 [View Project Online](https://lucaspalmasanches.github.io/Stopwatch/)
 
 ---
 
-## 🚀 Como Rodar o Projeto (Localmente)
+## 🚀 How to Run the Project (Locally)
 
-Para rodar este projeto em sua máquina local, siga os passos abaixo:
+To run this project on your local machine, follow the steps below:
 
-1.  **Clone o repositório:**
+1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/lucaspalmasanches/Cronometro.git
+    git clone https://github.com/lucaspalmasanches/Stopwatch.git
     ```
 
-2.  **Navegue até o diretório do projeto:**
+2.  **Navigate to the project directory:**
     ```bash
-    cd Cronometro
+    cd Stopwatch
     ```
 
-3.  **Abra o arquivo `index.html`:**
-    *   Simplesmente abra o arquivo `index.html` em seu navegador web preferido para visualizar e interagir com o cronômetro.
+3.  **Open the `index.html` file:**
+    *   Simply open the `index.html` file in your preferred web browser to view and interact with the stopwatch.
 
 ---
 
-## 📚 Aprendizados
+## 📚 Learnings
 
-Este projeto foi uma experiência valiosa e desafiadora, consolidando e expandindo meus conhecimentos em:
+This project was a valuable and challenging experience, consolidating and expanding my knowledge in:
 
-*   **CSS Avançado e Detalhado:** Exploração de propriedades e técnicas CSS sofisticadas, incluindo **pseudoelementos específicos de navegadores (`::-webkit`)** para personalização de elementos e criação de um design visualmente autêntico e responsivo.
+*   **Advanced CSS and Detailed Styling:** Exploration of sophisticated CSS properties and techniques, including **browser-specific pseudo-elements (`::-webkit`)** for element customization and creation of a visually authentic and responsive design.
 
-*   **JavaScript Avançado e Lógica de Programação:** Implementação de lógica complexa para contagem de tempo (milissegundos, segundos, minutos, horas), gerenciamento de estados (`setInterval`, `clearInterval`) e resolução de conflitos de execução.
+*   **Advanced JavaScript and Programming Logic:** Implementation of complex logic for time counting (milliseconds, seconds, minutes, hours), state management (`setInterval`, `clearInterval`), and resolution of execution conflicts.
 
-*   **Manipulação de DOM Aprofundada:** Atualização dinâmica do display do cronômetro, criação e gerenciamento de listas de voltas, e controle de estados de botões.
+*   **In-depth DOM Manipulation:** Dynamic updating of the stopwatch display, creation and management of lap lists, and control of button states.
 
-*   **Event Handling Moderno:** Substituição de `onclick` por `addEventListener` para uma gestão de eventos mais flexível e robusta.
+*   **Modern Event Handling:** Replacement of `onclick` with `addEventListener` for more flexible and robust event management.
 
-*   **Depuração e Correção de Bugs:** Habilidade aprimorada na identificação e resolução de inconsistências de lógica, garantindo a robustez e precisão da aplicação.
+*   **Debugging and Bug Fixing:** Enhanced ability to identify and resolve logical inconsistencies, ensuring the application's robustness and precision.
 
-*   **Desenvolvimento Responsivo:** Implementação de um layout que se adapta perfeitamente a diferentes dispositivos (desktop, tablet e mobile), **indo muito além do escopo inicial da aula**.
+*   **Responsive Development:** Implementation of a layout that perfectly adapts to different devices (desktop, tablet, and mobile), **going far beyond the initial scope of the lesson**.
 
-*   **User Experience (UX) e Design de Interface:** Criação de um layout intuitivo e visualmente agradável, que remete a um cronômetro real, com funcionalidades claras como o registro de voltas.
+*   **User Experience (UX) and Interface Design:** Focus on creating an intuitive and visually pleasing layout that mimics a real stopwatch, with clear functionalities like lap recording.
 
-*   **HTML Semântico e Otimização:** Estruturação clara do conteúdo web e estilização adaptável para uma interface de usuário funcional e esteticamente alinhada.
+*   **Semantic HTML and Optimized CSS:** Clear web content structuring and adaptable styling for a functional and aesthetically aligned user interface.
 
-*   **Controle de Versão:** Gerenciamento eficiente de código com Git e GitHub.
+*   **Version Control:** Efficient code management with Git and GitHub.
 
 ---
 
-## Conecte-se Comigo 🤝
+## Let's Connect! 🤝
 
-Estou sempre aberto a novas conexões e oportunidades. Sinta-se à vontade para entrar em contato!
+I'm always open to new connections, opportunities, and challenges. Feel free to reach out!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-palma-sanches-082902426)
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucaspalma331@gmail.com)
